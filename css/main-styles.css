@@ -1,0 +1,22 @@
+html, body{
+    padding: 2rem;
+    height: 100%;
+}
+
+body >*{
+    width: 100%;
+    padding: 1rem;
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lawngreen;
+    height: 3rem;
+}
+
+body:hover{
+    display: flex
+}
+body>*:hover{
+    background-color: blue;
+}
